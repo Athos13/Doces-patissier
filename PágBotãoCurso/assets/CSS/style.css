@@ -1,0 +1,142 @@
+body{
+    background: white;
+    color: black;
+  }
+  .container-principal{
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 2px black;
+  }
+  
+  main{
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  section{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:30px;
+  max-width: 100%;
+  }
+  
+  .div-titulo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  max-width: 100%;
+  height: 45px;
+  color: white;
+  background: #8a1c0a;
+  
+  position: fixed;
+  top: 10px;
+  }
+  
+  .alinha-botao-titulo{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 60%;
+    justify-content: space-between;
+  }
+  
+  .botao-voltar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  img{
+    width: 100%;
+    margin-top:40px;
+  }
+  
+  .alinha-titulo-um{
+   
+    height: 15px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .produto-um-titulo{
+  
+    width: 380px;
+    max-width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  
+  .caixa-descricao{
+    width: 90%;
+  }
+
+  .descricao{
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 230px;
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+  }
+  
+  .bolo-preco{
+    width: 95%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px grey;
+  }
+  
+  .preco{
+    margin-top: 150px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .bolo{
+    margin-left: 10px;
+  }
+  
+  .div-botao-pedido{
+    width: 400px;
+    max-width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 10px;
+    border: 1px solid grey;
+    background: white;
+  }
+  
+  .botao-pedido {
+    width: 60%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #cd853f;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

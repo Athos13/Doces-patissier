@@ -1,0 +1,222 @@
+body{
+    background: white;
+    color: black;
+    display: flex;
+    width: 100%;
+    height: 660px;
+    min-height: 100%;
+   
+  }
+
+  section{
+    width:100%;
+  }
+  
+  .container-principal{
+  width: 400px;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: solid 2px black;
+  }
+  
+  main{
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  
+  .div-titulo{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 400px;
+  max-width: 100%;
+  height: 45px;
+  color: white;
+  background: #8a1c0a;
+  
+  
+  }
+  
+  .alinha-botao-titulo{
+    display: flex;
+    align-items: center;
+    margin-left:5px;
+    width: 260px;
+    max-width: 70%;
+    justify-content: space-between;
+   
+  }
+  
+  .botao-voltar{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card-passos-compra{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    
+  }
+  
+  .alinha-passos{
+    height: 100%;
+    width: 75%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #edededec ;
+  }
+  
+  p{
+    height: 30px;
+    width: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    background: #cac8c89b;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #step-one{
+    border: 2px solid gold;
+    background:white ;
+    color: gold;
+  }
+
+  .bloco-conteudo{
+    max-width: 100%;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-bottom: 280px;
+  }
+
+  span{
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(173, 172, 172);
+  }
+
+  .local p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 17px;
+    font-weight: normal;
+    background: none;
+  }
+
+  .data p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 45px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: normal;
+    background: none;
+  }
+
+  .input-caixa{
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+  }
+
+  .input-caixa label{
+    width: 100%;
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(173, 172, 172);
+  }
+
+  input{
+    margin-top: 8px;
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 8px;
+    border: 2px solid gold;
+    
+  }
+
+  .bloco-botão{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+  }
+
+  button{
+    
+    width: 60%;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    background: #cd853f;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  @media screen and(max-width='600px'){
+    .container-principal{
+      max-width: 100%;
+    }
+    main{
+      max-width: 100%;
+    }
+    section{
+      max-width: 100%;
+    }
+    .div-titulo{
+      max-width: 100%;
+    }
+    .alinha-botao-titulo{
+      max-width: 100%;
+    }
+    .card-passos-compra{
+      max-width: 100%;
+    }
+    .bloco-conteudo{
+      max-width: 100%;
+    }
+    .local{
+      max-width: 100%;
+    }
+    .data{
+      max-width: 100%;
+    }
+    p{
+      max-width: 100%;
+    }
+  }
+
+  @media screen and(max-width='350px'){
+    .alinha-botao-titulo{
+      max-width: 30%;
+    }
+  }
